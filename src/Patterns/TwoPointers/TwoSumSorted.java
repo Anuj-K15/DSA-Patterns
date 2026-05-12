@@ -2,7 +2,7 @@ package Patterns.TwoPointers;
 
 import java.util.Arrays;
 
-public class TwoSum {
+public class TwoSumSorted {
     public static int[] twoSum(int[] nums, int target){
         int left = 0;
         int right = nums.length - 1;
